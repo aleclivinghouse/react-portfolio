@@ -47,9 +47,10 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 600px) {
-  .column {
+  .column, .twoCol {
     width: 100%;
   }
+
 }
 
 /* Clear floats after the columns */
@@ -86,7 +87,6 @@ body {
   padding: 15px;
   margin-top: 50px;
   border-radius: 25px;
-  background-color: lightgrey
 }
 
 /* Style the links inside the navigation bar */
@@ -110,6 +110,12 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+.bio{
+  background-color: #f1f1f1;
+  margin-top: 3px;
+  height: 300px;
+  margin-bottom: 50px;
 }
 
 /* About me sections */
